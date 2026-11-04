@@ -18,6 +18,8 @@
                         'Elixir.PhoenixAgentAssistant.AnchorStore.Entry',
                         'Elixir.PhoenixAgentAssistant.Anthropic',
                         'Elixir.PhoenixAgentAssistant.Audit',
+                        'Elixir.PhoenixAgentAssistant.AuditLog',
+                        'Elixir.PhoenixAgentAssistant.AuditLog.IntegrityError',
                         'Elixir.PhoenixAgentAssistant.Canonical',
                         'Elixir.PhoenixAgentAssistant.Catalog',
                         'Elixir.PhoenixAgentAssistant.Components',
@@ -50,4 +52,4 @@
                              phoenix_live_view,phoenix_html,jason,req]},
               {description,"phoenix_agent_assistant"},
               {registered,[]},
-              {vsn,"0.0.2"}]}.
+              {vsn,"0.0.3"}]}.
