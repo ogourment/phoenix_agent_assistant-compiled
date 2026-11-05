@@ -33,6 +33,7 @@
                         'Elixir.PhoenixAgentAssistant.Modes',
                         'Elixir.PhoenixAgentAssistant.Pricing',
                         'Elixir.PhoenixAgentAssistant.PublicSource',
+                        'Elixir.PhoenixAgentAssistant.ReadinessReconciliation',
                         'Elixir.PhoenixAgentAssistant.Redactor',
                         'Elixir.PhoenixAgentAssistant.Runner',
                         'Elixir.PhoenixAgentAssistant.RuntimeConfiguration',
@@ -60,4 +61,4 @@
                              phoenix_live_view,phoenix_html,jason,req]},
               {description,"phoenix_agent_assistant"},
               {registered,[]},
-              {vsn,"0.0.3"}]}.
+              {vsn,"0.0.4"}]}.
