@@ -61,4 +61,4 @@
                              phoenix_live_view,phoenix_html,jason,req]},
               {description,"phoenix_agent_assistant"},
               {registered,[]},
-              {vsn,"0.0.5"}]}.
+              {vsn,"0.0.6"}]}.
