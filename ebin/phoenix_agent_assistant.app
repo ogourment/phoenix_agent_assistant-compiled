@@ -74,4 +74,4 @@
                              jason,req]},
               {description,"phoenix_agent_assistant"},
               {registered,[]},
-              {vsn,"0.1.0"}]}.
+              {vsn,"0.1.1"}]}.
