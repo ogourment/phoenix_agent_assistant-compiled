@@ -32,6 +32,8 @@
                         'Elixir.PhoenixAgentAssistant.Context',
                         'Elixir.PhoenixAgentAssistant.CreditAllocation',
                         'Elixir.PhoenixAgentAssistant.FundedBudget',
+                        'Elixir.PhoenixAgentAssistant.GuidedMode',
+                        'Elixir.PhoenixAgentAssistant.GuidedModeComponents',
                         'Elixir.PhoenixAgentAssistant.History',
                         'Elixir.PhoenixAgentAssistant.Host',
                         'Elixir.PhoenixAgentAssistant.Modes',
@@ -74,4 +76,4 @@
                              jason,req]},
               {description,"phoenix_agent_assistant"},
               {registered,[]},
-              {vsn,"0.1.2"}]}.
+              {vsn,"0.1.3"}]}.
