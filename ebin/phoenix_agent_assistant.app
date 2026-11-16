@@ -1,5 +1,6 @@
 {application,phoenix_agent_assistant,
-             [{modules,['Elixir.Inspect.PhoenixAgentAssistant.Store.Alert',
+             [{modules,['Elixir.Inspect.PhoenixAgentAssistant.RequestReview.Exchange',
+                        'Elixir.Inspect.PhoenixAgentAssistant.Store.Alert',
                         'Elixir.Inspect.PhoenixAgentAssistant.Store.AuditEntry',
                         'Elixir.Inspect.PhoenixAgentAssistant.Store.BudgetClaim',
                         'Elixir.Inspect.PhoenixAgentAssistant.Store.BudgetPlan',
@@ -43,6 +44,8 @@
                         'Elixir.PhoenixAgentAssistant.PublicSource',
                         'Elixir.PhoenixAgentAssistant.ReadinessReconciliation',
                         'Elixir.PhoenixAgentAssistant.Redactor',
+                        'Elixir.PhoenixAgentAssistant.RequestReview',
+                        'Elixir.PhoenixAgentAssistant.RequestReview.Exchange',
                         'Elixir.PhoenixAgentAssistant.ResponseMarkdown',
                         'Elixir.PhoenixAgentAssistant.Runner',
                         'Elixir.PhoenixAgentAssistant.RuntimeConfiguration',
@@ -76,4 +79,4 @@
                              jason,req]},
               {description,"phoenix_agent_assistant"},
               {registered,[]},
-              {vsn,"0.1.9"}]}.
+              {vsn,"0.2.0"}]}.
