@@ -37,6 +37,7 @@
                         'Elixir.PhoenixAgentAssistant.GuidedModeComponents',
                         'Elixir.PhoenixAgentAssistant.History',
                         'Elixir.PhoenixAgentAssistant.Host',
+                        'Elixir.PhoenixAgentAssistant.InstructionEditor',
                         'Elixir.PhoenixAgentAssistant.Modes',
                         'Elixir.PhoenixAgentAssistant.OpenAI',
                         'Elixir.PhoenixAgentAssistant.OpenRouter',
@@ -79,4 +80,4 @@
                              jason,req]},
               {description,"phoenix_agent_assistant"},
               {registered,[]},
-              {vsn,"0.2.1"}]}.
+              {vsn,"0.2.2"}]}.
