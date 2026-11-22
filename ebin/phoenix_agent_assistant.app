@@ -73,6 +73,7 @@
                         'Elixir.PhoenixAgentAssistant.Store.SpendEntry',
                         'Elixir.PhoenixAgentAssistant.Store.Stream',
                         'Elixir.PhoenixAgentAssistant.Store.Validation',
+                        'Elixir.PhoenixAgentAssistant.TextInput',
                         'Elixir.PhoenixAgentAssistant.TextProviderHTTP']},
               {optional_applications,[]},
               {applications,[kernel,stdlib,elixir,logger,crypto,ecto_sql,
@@ -80,4 +81,4 @@
                              jason,req]},
               {description,"phoenix_agent_assistant"},
               {registered,[]},
-              {vsn,"0.2.3"}]}.
+              {vsn,"0.2.4"}]}.
