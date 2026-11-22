@@ -52,7 +52,7 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixAgentAssistant do
     "ebin/Elixir.PhoenixAgentAssistant.SpendLedger.beam" =>
       "54B5039D703BAC9575B8996FD146746C5254FA45A0C286A3A15822C4AEB1A293",
     "ebin/Elixir.PhoenixAgentAssistant.beam" =>
-      "184408FF865770987C3FF331E7CB20123FDF8647C77A6CD7C04F789EF1CF3BFD",
+      "29666FD45F121F4A7F2096F6219CC14B3E8483BA4BB46B84CAC813D763C7EA22",
     "ebin/Elixir.PhoenixAgentAssistant.Safety.OpenAIModeration.beam" =>
       "84A63B39A95DA2D63810564D0F8AE1C344723DBA0EDA75485FE437EED425DD8F",
     "ebin/Elixir.PhoenixAgentAssistant.Store.Validation.beam" =>
@@ -87,7 +87,7 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixAgentAssistant do
     "ebin/Elixir.PhoenixAgentAssistant.TextInput.beam" =>
       "07D3862582F8B9327DEFD52A0877EB9E5781DDDB4C6A37CC5DD7747E965AD40D",
     "ebin/Elixir.PhoenixAgentAssistant.AlertSink.beam" =>
-      "AE1C276493185AB74613F3EBD7C25497F91A5AEE85E0F7C3E597CAF39A148A19",
+      "B034500C72FCF5BE263F154A724DDF7764EB0010C5294A37DB2BE22B5A46DE63",
     "ebin/Elixir.PhoenixAgentAssistant.Components.beam" =>
       "0F39C92228E53A26AD5742BC5721C74D07990C34B439F5E96E76F6B745DF2768",
     "ebin/Elixir.PhoenixAgentAssistant.AnchorClient.Checkpoint.beam" =>
@@ -114,7 +114,7 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixAgentAssistant do
     "ebin/Elixir.PhoenixAgentAssistant.AlertDelivery.beam" =>
       "D0F5E441A7FD4D27E2196C07695118DD084842EE7B2EF77A31474FCFC81C0F35",
     "ebin/phoenix_agent_assistant.app" =>
-      "DF175865F5DC50AA920C2333764D248AA0B725008C13E5A4EB37D272DAFD8956",
+      "DFFC6F4E480F34C7A1F35533B74C4BA75449F7063509446A6877226AA6EABC48",
     "ebin/Elixir.PhoenixAgentAssistant.Anchor.beam" =>
       "193FB8EEFE3ADEAB69E6470D749BD25F35DBDB304ABD96F70568AC9D43FD7718",
     "ebin/Elixir.Inspect.PhoenixAgentAssistant.Store.Request.beam" =>
@@ -199,7 +199,7 @@ defmodule Compiled.PhoenixAgentAssistant.MixProject do
   def project do
     [
       app: :phoenix_agent_assistant,
-      version: "0.2.4",
+      version: "0.2.5",
       elixir: "~> 1.20.0",
       compilers: [:binary_phoenix_agent_assistant],
       deps: [
