@@ -47,10 +47,12 @@
                         'Elixir.PhoenixAgentAssistant.Redactor',
                         'Elixir.PhoenixAgentAssistant.RequestReview',
                         'Elixir.PhoenixAgentAssistant.RequestReview.Exchange',
+                        'Elixir.PhoenixAgentAssistant.RequestTelemetry',
                         'Elixir.PhoenixAgentAssistant.ResponseMarkdown',
                         'Elixir.PhoenixAgentAssistant.Runner',
                         'Elixir.PhoenixAgentAssistant.RuntimeConfiguration',
                         'Elixir.PhoenixAgentAssistant.Safety',
+                        'Elixir.PhoenixAgentAssistant.Safety.FailureLog',
                         'Elixir.PhoenixAgentAssistant.Safety.HTTP',
                         'Elixir.PhoenixAgentAssistant.Safety.Jev',
                         'Elixir.PhoenixAgentAssistant.Safety.JevGateway',
@@ -78,7 +80,7 @@
               {optional_applications,[]},
               {applications,[kernel,stdlib,elixir,logger,crypto,ecto_sql,
                              phoenix_live_view,phoenix_html,earmark_parser,
-                             jason,req]},
+                             jason,req,finch]},
               {description,"phoenix_agent_assistant"},
               {registered,[]},
-              {vsn,"0.2.5"}]}.
+              {vsn,"0.2.6"}]}.
