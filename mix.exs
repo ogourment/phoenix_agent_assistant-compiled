@@ -4,7 +4,7 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixAgentAssistant do
   @root __DIR__
   @checksums %{
     "ebin/Elixir.PhoenixAgentAssistant.Safety.beam" =>
-      "1DD527299CD91B5DE1165A36A497AB32AAAB7BD2B11E5C8DADAC3DBEC900A2A7",
+      "DF7F30CD67B65AD29C31F4D4A44A9648BA057B678A68CF989E636D9B13E2FDB7",
     "ebin/Elixir.PhoenixAgentAssistant.Canonical.beam" =>
       "B95644A1082C0E64D2A3BCF967BA8CD01FEF760ECD78E0AB4C66FC568ADF9EA4",
     "ebin/Elixir.PhoenixAgentAssistant.AnchorClientMigration.beam" =>
@@ -99,9 +99,9 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixAgentAssistant do
     "ebin/Elixir.Inspect.PhoenixAgentAssistant.Store.Alert.beam" =>
       "41EC7788CBF5F13ED5391891BCDF1CCCDDA42D531E0AA912C9467A41BD6690FA",
     "ebin/Elixir.PhoenixAgentAssistant.RequestReview.beam" =>
-      "5C119B5931BC61A0849C00EA2D4FDFF9FDBF67C65126D7847B004C392FDBD2D8",
+      "99715AC4F05EDF7A785DC28F690C04C9ADCD714259BA7D4FE70DD55FA521F745",
     "ebin/Elixir.PhoenixAgentAssistant.RuntimeConfiguration.beam" =>
-      "5D657739A846F65259EFFB34CEF3F6BA02E4D466CEE222863CC6878E7473203B",
+      "83B40D1DCC4B733FDB2C65817D9199CBDF12A3F1DEDB68646778BDBB8A6A9576",
     "ebin/Elixir.PhoenixAgentAssistant.Store.BudgetPlan.beam" =>
       "57799C8D2A8131AF6B8011C1EF7964C7657C93A00680AC8FBB6AFBCE247E6623",
     "ebin/Elixir.PhoenixAgentAssistant.Store.beam" =>
@@ -114,11 +114,11 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixAgentAssistant do
     "ebin/Elixir.PhoenixAgentAssistant.Store.Setting.beam" =>
       "A6119DFFB8839918CD5C35E12768DA476F9C639228753F155320AB0A82B990D9",
     "ebin/Elixir.PhoenixAgentAssistant.Safety.Jev.beam" =>
-      "59AD5FC56C9827560D22DF71D563BA552F35643BC9374618FEEB5F0C15481BC4",
+      "43EEA9BF3040AFA90A9BB0E60F82F4E13B38353D418CFCF0B29E35004F5F09F8",
     "ebin/Elixir.PhoenixAgentAssistant.AlertDelivery.beam" =>
       "D0F5E441A7FD4D27E2196C07695118DD084842EE7B2EF77A31474FCFC81C0F35",
     "ebin/phoenix_agent_assistant.app" =>
-      "F21C0D679BBE1E647AC107DEE47635DBAA64989AB788B80DB2C263A2DA987EBA",
+      "C3F55D7AA9778AF71529DE7132426B3A593B8F79356961ABD2051E4AB8CD5440",
     "ebin/Elixir.PhoenixAgentAssistant.Anchor.beam" =>
       "193FB8EEFE3ADEAB69E6470D749BD25F35DBDB304ABD96F70568AC9D43FD7718",
     "ebin/Elixir.Inspect.PhoenixAgentAssistant.Store.Request.beam" =>
@@ -148,7 +148,7 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixAgentAssistant do
     "ebin/Elixir.PhoenixAgentAssistant.GuidedModeComponents.beam" =>
       "E43B4BD475D5985B8544E19C532DE2694587F9573FD190EC7EC78D8586ABF507",
     "ebin/Elixir.PhoenixAgentAssistant.Safety.Validation.beam" =>
-      "13E693C7C0149D97FC33D76B85B989FD5BF9B8D8E52AE10AAA73166DBDA1B861",
+      "A60896DDE5459038157A99C6CAEDADE8F08F330502B7B5A8532E6BC39E9EF57A",
     "ebin/Elixir.PhoenixAgentAssistant.Store.Alert.beam" =>
       "37C2480B126C26863044F19A22B445D268DF59FC38D2D492FD41D9015AE61B16",
     "ebin/Elixir.PhoenixAgentAssistant.History.beam" =>
@@ -162,7 +162,7 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixAgentAssistant do
     "ebin/Elixir.PhoenixAgentAssistant.SpendCost.beam" =>
       "99AE6E55720B314250545D6406B8FE8388CAB35B6858D821B804467786203920",
     "ebin/Elixir.PhoenixAgentAssistant.AuditLog.beam" =>
-      "05A4F6CDEC5866956AB9B09B2587CD383EEBB747A9E57E16F899E4CD314C153D",
+      "61006678E0C8377122228B9617C716B0E4D646B8F976F243EC453B49761E1448",
     "ebin/Elixir.Inspect.PhoenixAgentAssistant.Store.Stream.beam" =>
       "B4B3DF913D6E5C548F6D0DFAC27D6EA4C13BC8D1E39A3E9299B145AD02881CB7",
     "ebin/Elixir.PhoenixAgentAssistant.AlertWorker.beam" =>
@@ -203,7 +203,7 @@ defmodule Compiled.PhoenixAgentAssistant.MixProject do
   def project do
     [
       app: :phoenix_agent_assistant,
-      version: "0.2.6",
+      version: "0.2.7",
       elixir: "~> 1.20.0",
       compilers: [:binary_phoenix_agent_assistant],
       deps: [
